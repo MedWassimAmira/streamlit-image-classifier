@@ -16,9 +16,19 @@ st.title("🖼️ CIFAR-10 Image Classifier")
 st.write("Upload an image and let the model predict its class.")
 
 # Load model
+from huggingface_hub import hf_hub_download
+
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model("model.h5", compile=False)
+    model_path = hf_hub_download(
+        repo_id="MedWassimAmira/cifar10-image-classifier-model",
+        filename="model.h5"
+    )
+
+    return tf.keras.models.load_model(
+        model_path,
+        compile=False
+    )
 
 try:
     model = load_model()
