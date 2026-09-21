@@ -72,7 +72,7 @@ The application allows users to:
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/MedWassimAmira/streamlit-image-classifier.git
 cd CIFAR10_Project
 ```
 
