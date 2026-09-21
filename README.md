@@ -113,7 +113,6 @@ The application successfully identified the uploaded image as a cat with a confi
 CIFAR10_Project/
 ├── docs/
 │   └── prediction_example.png
-├── model.h5
 ├── streamlit_app.py
 ├── labels.txt
 ├── requirements.txt
