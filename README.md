@@ -48,6 +48,15 @@ model.h5
 
 The Streamlit application resizes uploaded images and processes them before making predictions.
 
+## 🤗 Model Hosting
+
+The trained model is hosted on Hugging Face:
+
+[View Model on Hugging Face](https://huggingface.co/MedWassimAmira/cifar10-image-classifier-model)
+
+The Streamlit application automatically downloads the model
+from Hugging Face when it runs.
+
 ## 🌐 Streamlit Application
 
 The application allows users to:
